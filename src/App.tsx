@@ -1,15 +1,17 @@
 import Navbar from './components/navbar'
-import Button from './components/button'
+import Projects from './components/projects'
+import Contact from './components/contact'
 import Hero from './components/hero'
 import './App.css'
 
 function App() {
 
   return (
-    <div className="App">
+    <div className="bg-zinc-800">
       <Navbar/>
-      {/* <Button buttonName={"click me"}/> */}
       <Hero/>
+      <Projects/>
+      <Contact/>
     </div>
   )
 }

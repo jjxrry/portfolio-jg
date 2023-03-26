@@ -20,7 +20,7 @@ export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-zinc-800 h-screen">
+    <div className="h-screen">
       <header className="absolute inset-x-0 top-0 z-50">
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
@@ -62,7 +62,7 @@ export default function Hero() {
         </Dialog>
       </header>
 
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div className="relative px-6 pt-14 lg:px-8">
         <div className="mx-auto max-w-5xl py-32 sm:py-48 lg:py-56">
             <div className="flex flex-col md:flex-row">
                 <img className="w-full md:w-1/2 h-auto" src={ heroSplash }></img>
@@ -77,9 +77,9 @@ export default function Hero() {
                 projects <span aria-hidden="true">→</span>
               </a>
             </div>
-            <div className='flex flex-col items-center'>
-                    <p className='text-white mt-10'>my stack</p>
-                <div className='flex p-10 gap-4'>
+            <div className='flex lg:flex-row md:flex-col justify-center'>
+                    <p className='text-white mt-10 self-start'>my stack</p>
+                <div className='flex lg:flex-row md:flex-col p-10 gap-4'>
                     <img className="w-auto h-9" src={ reactLogo }></img>
                     <img className="w-auto h-9" src={ tsLogo }></img>
                     <img className="w-12 h-9" src={ tailwindLogo }></img>
