@@ -90,7 +90,7 @@ export default function Navbar () {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://github.com/jjxrry"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Github Profile
@@ -100,7 +100,7 @@ export default function Navbar () {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://github.com/jjxrry/portfolio-2023"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             This Repo
