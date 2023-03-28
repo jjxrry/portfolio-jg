@@ -2,12 +2,6 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import heroSplash from '../assets/jg-white.png'
-import reactLogo from '../assets/react.png'
-import tsLogo from '../assets/typescript.png'
-import tailwindLogo from '../assets/tailwind.png'
-import nodeLogo from '../assets/nodejs.png'
-import htmlLogo from '../assets/html.png'
-import mongoLogo from '../assets/mongodb.png'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -62,7 +56,7 @@ export default function Hero() {
         </Dialog>
       </header>
 
-      <div className="relative px-6 pt-14 lg:px-8">
+      <div className="relative px-6 pt-14 lg:px-8 border-2">
         <div className="mx-auto max-w-5xl py-32 sm:py-48 lg:py-56">
             <div className="flex flex-col md:flex-row">
                 <img className="w-full md:w-1/2 h-auto" src={ heroSplash }></img>
@@ -74,19 +68,8 @@ export default function Hero() {
             </div>
             <div className="mt-10 flex items-center justify-end gap-x-6">
               <a href="#" className="text-sm leading-6 text-white hover:underline">
-                projects <span aria-hidden="true">→</span>
+                projects <span aria-hidden="true">↓</span>
               </a>
-            </div>
-            <div className='flex lg:flex-row md:flex-col justify-center'>
-                    <p className='text-white mt-10 self-start'>my stack</p>
-                <div className='flex lg:flex-row md:flex-col p-10 gap-4'>
-                    <img className="w-auto h-9" src={ reactLogo }></img>
-                    <img className="w-auto h-9" src={ tsLogo }></img>
-                    <img className="w-12 h-9" src={ tailwindLogo }></img>
-                    <img className="w-auto h-9" src={ nodeLogo }></img>
-                    <img className="w-auto h-10" src={ mongoLogo }></img>
-                    <img className="w-auto h-9" src={ htmlLogo }></img>
-                </div>
             </div>
         </div>
       </div>
