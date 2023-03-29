@@ -4,7 +4,7 @@ export default function Hero() {
 
   return (
     <div className="h-400" id='home'>
-      <div className="relative px-6 pt-14 lg:px-8 border-2">
+      <div className="relative px-6 pt-14 lg:px-8">
         <div className="mx-auto max-w-5xl py-32 sm:py-48 lg:py-56">
             <div className="flex flex-col md:flex-row">
                 <img className="w-full md:w-1/2 h-auto" src={ heroSplash }></img>
@@ -20,7 +20,7 @@ export default function Hero() {
                 className="text-sm leading-6 text-white hover:underline"
                 onClick={(event) => {
                   event.preventDefault();
-                  const element = document.querySelector("#projects");
+                  const element = document.querySelector("#stack");
                     if (element) {
                       element.scrollIntoView({ behavior: 'smooth' });
                     }

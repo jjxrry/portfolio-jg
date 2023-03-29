@@ -1,12 +1,12 @@
 const Projects = () => {
     const projects = [
       {
-        title: 'Contact Web-App',
+        title: 'Contact Web App',
         description: 'Full Stack Program built with React, Express, JavaScript, and MongoDB to create a responsive contact list with REST API posting/editing and sorting functionality.',
         link: 'https://github.com/jjxrry/fso-contact-app'
       },
       {
-        title: 'Country Finder Web-App',
+        title: 'Country Finder Web App',
         description: 'Full Stack Program that displays query-based information and returns details such as population, cultural facts, and current weather from public API.',
         link: 'https://github.com/jjxrry/country-app'
       },
@@ -18,13 +18,13 @@ const Projects = () => {
     ];
   
     return (
-      <div className="container mx-auto my-8 pb-20">
+      <div className="container mx-auto my-12 pb-20">
         <h2 className="text-3xl font-bold text-white mb-4 text-center mb-7" id="projects">Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {projects.map(project => (
-            <a key={project.link} href={project.link} className="border rounded-lg p-4 transition-colors text-white hover:bg-gray-100">
+            <a key={project.link} href={project.link} className="border rounded-lg p-4 transition-colors text-white hover:bg-gray-50 hover:text-black">
               <h3 className="text-lg font-bold mb-2">{project.title}</h3>
-              <p className="text-zinc-400">{project.description}</p>
+              <p className="text-zinc-400 hover:text-black">{project.description}</p>
             </a>
           ))}
         </div>
