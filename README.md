@@ -3,4 +3,4 @@
 TS | REACT | TAILWIND
 
 
-[Live Site](portfolio-2023-nkyuun95u-jjxrry.vercel.app)
+[Live Site](https://portfolio-2023-bky9ak4z8-jjxrry.vercel.app)
