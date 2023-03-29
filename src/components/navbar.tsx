@@ -5,9 +5,8 @@ import logo from '../assets/logo-no-background.png'
 import githubIcon from '../assets/github.png'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Home', href: '#home', current: true },
+  { name: 'Projects', href: '#projects', current: false }
 ]
 
 function classNames(...classes: string[]) {
@@ -51,9 +50,17 @@ export default function Navbar () {
                       <a
                         key={item.name}
                         href={item.href}
+                        onClick={(event) => {
+                          event.preventDefault();
+                          const element = document.querySelector(item.href);
+                            if (element) {
+                              element.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }}
                         className={classNames(
-                          item.current ? 'bg-neutral-700 text-white' : 'text-white hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
+                          item.current ? 'text-white hover:bg-gray-700' : 'text-white hover:bg-gray-700 hover:text-white',
+                          'rounded-md px-3 py-2 text-sm font-medium transition-colors duration-300 ease-in-out',
+                          'scroll-behavior: smooth'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
@@ -63,8 +70,8 @@ export default function Navbar () {
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 
+              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
