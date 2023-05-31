@@ -19,7 +19,7 @@ const Projects = () => {
   
     return (
       <div className="container mx-auto my-12 pb-20">
-        <h2 className="text-3xl font-bold text-white mb-4 text-center mb-7" id="projects">Projects</h2>
+        <h2 className="text-3xl font-bold text-white mb-4 text-center mb-7 underline underline-offset-8" id="projects">Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {projects.map(project => (
             <a key={project.link} href={project.link} className="border rounded-lg p-4 transition-colors text-white hover:bg-gray-50 hover:text-black">

@@ -15,16 +15,17 @@ export default function Contact() {
   return (
     <div className="isolate py-24 px-2 sm:py-32 lg:px-8 -mt-10">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Contact Me</h2>
-        <p className="mt-2 text-lg leading-8 text-white">
+        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl mb-6 underline underline-offset-8">Contact Me</h2>
+        <p className="mt-2 text-lg leading-8 text-white max-w-xs mx-auto text-center mb-4">
           I would love to hear about any opportunities for me to grow my skills.
         </p>
       </div>
-      <div className="flex flex-row justify-center align-end gap-4 mt-3 text-white">
+      <div className="flex flex-row justify-center align-end gap-4 mt-3 text-indigo-400">
+        <a className='hover:underline' href='https://www.linkedin.com/in/jerryyga0/'>LinkedIn</a>
         <a className='hover:underline' href="https://twitter.com/golfcatt">Twitter</a>
         <a className='hover:underline' href='' onClick={handleEmailClick}>Email</a>
       </div>
-        {isCopied && <div className='flex flex-row justify-center align-end gap-4 mt-3 text-green-600' aria-hidden="true">email copied!</div>}
+        {isCopied && <div className='flex flex-row justify-center align-end gap-4 mt-3 text-green-600' aria-hidden="true">email copied ✓</div>}
     </div>
   );
 }

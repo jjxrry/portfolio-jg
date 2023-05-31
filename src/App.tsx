@@ -8,7 +8,7 @@ import './App.css'
 function App() {
 
   return (
-    <div className="bg-zinc-800">
+    <div className="bg-zinc-800 font-theme1">
       <Navbar/>
       <Hero/>
       <Stack/>

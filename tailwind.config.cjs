@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'theme1': ['Fira Mono', 'sans-serif']
+    },
   },
   plugins: [],
 }
