@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import resumePDF from '../assets/Resume Jerry Gao - Copy.pdf';
 
 export default function Contact() {
   const [email, setEmail] = useState('jerryygao@gmail.com')
   const [isCopied, setIsCopied] = useState(false)
+
 
   function handleEmailClick() {
     event?.preventDefault()
@@ -24,6 +26,7 @@ export default function Contact() {
         <a className='hover:underline' href='https://www.linkedin.com/in/jerryyga0/'>LinkedIn</a>
         <a className='hover:underline' href="https://twitter.com/golfcatt">Twitter</a>
         <a className='hover:underline' href='' onClick={handleEmailClick}>Email</a>
+        <a className='hover:underline' href={resumePDF} download="Resume Jerry Gao.pdf">PDF Resume</a>
       </div>
         {isCopied && <div className='flex flex-row justify-center align-end gap-4 mt-3 text-green-600' aria-hidden="true">email copied ✓</div>}
     </div>

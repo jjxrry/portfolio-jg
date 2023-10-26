@@ -9,8 +9,8 @@ export default function Hero() {
             <div className="flex flex-col md:flex-row">
                 <img className="w-full md:w-1/2 h-auto" src={ heroSplash }></img>
                 <p className="md:ml-6 mt-7 text-xl leading-9 text-gray-50">
-                Hello! My name is Jerry Gao and I am a web developer, focused on front end design. 
-                I work mainly in Typescript and with the React.js library to create cool things! 
+                Hello! My name is Jerry Gao and I learning to become a software developer, focused on front end design. 
+                I work mainly in Typescript to create cool things! 
                 I am currently pursuing my Master of Science in Computer Science at Northeastern University. I am always on the look out for SWE opportunities and would love to show you my work.
                 </p>
             </div>

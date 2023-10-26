@@ -14,7 +14,7 @@ export default function Stack () {
                 <img className="w-auto h-9" src={ tsLogo }></img>
                 <img className="w-12 h-9" src={ tailwindLogo }></img>
                 <img className="w-auto h-9" src={ nodeLogo }></img>
-                <img className="w-auto h-10" src={ mongoLogo }></img>
+                {/* <img className="w-auto h-10" src={ mongoLogo }></img> */}
                 <img className="w-auto h-9" src={ htmlLogo }></img>
             </div>
         </div>
