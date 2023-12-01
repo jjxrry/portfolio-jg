@@ -1,15 +1,20 @@
 const Projects = () => {
     const projects = [
       {
+        title: 'Poker Game Engine',
+        description: "Developed a Python-based Poker Game Engine for Texas Hold 'em, designed to calculate the odds of achieving various poker hands in a two-player scenario, with the capability to handle multiple hand combinations.",
+        link: 'https://github.com/jjxrry/poker_engine'
+      },
+      {
         title: 'Twitter/X Clone',
         description: 'Employed React, Next.js, and Tailwind to build dynamic, component-based user interfaces that allowed for profileviewing, single post displays, and real-time updates.',
         link: 'https://twit-clone-2023.vercel.app/'
       },
-      // {
-      //   title: 'Contact Web App',
-      //   description: 'Full Stack Program built with React, Express, JavaScript, and MongoDB to create a responsive contact list with REST API posting/editing and sorting functionality.',
-      //   link: 'https://github.com/jjxrry/fso-contact-app'
-      // },
+      {
+        title: 'Contact Web App',
+        description: 'Full Stack Program built with React, Express, JavaScript, and MongoDB to create a responsive contact list with REST API posting/editing and sorting functionality.',
+        link: 'https://github.com/jjxrry/fso-contact-app'
+      },
       {
         title: 'Country Finder Web App',
         description: 'Full Stack Program that displays query-based information and returns details such as population, cultural facts, and current weather from public API.',
