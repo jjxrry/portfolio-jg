@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import resumePDF from '../assets/Resume Jerry Gao - Copy.pdf';
+import resumePDF from '../assets/RESUME.pdf';
 
 export default function Contact() {
   const [email, setEmail] = useState('jerryygao@gmail.com')
