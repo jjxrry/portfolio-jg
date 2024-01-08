@@ -1,4 +1,4 @@
-import heroSplash from '../assets/jg-white.png'
+import heroSplash from '../assets/Dot.png'
 
 export default function Hero() {
 
@@ -7,10 +7,10 @@ export default function Hero() {
       <div className="relative px-6 pt-14 lg:px-8">
         <div className="mx-auto max-w-5xl py-32 sm:py-48 lg:py-56">
             <div className="flex flex-col md:flex-row">
-                <img className="w-full md:w-1/2 h-auto" src={ heroSplash }></img>
+                <img className="w-full md:w-1/2 h-auto transform -translate-y-8" src={ heroSplash }></img>
                 <p className="md:ml-6 mt-7 text-xl leading-9 text-gray-50">
-                Hello! My name is Jerry Gao and I learning to become a software developer, focused on front end design. 
-                I work mainly in Typescript to create cool things! 
+                Hello! My name is dot, or Jerry and I am learning to become a software engineer and web developer. 
+                I work mainly in Typescript and Python to create cool things! 
                 I am currently pursuing my Master of Science in Computer Science at Northeastern University. I am always on the look out for SWE opportunities and would love to show you my work.
                 </p>
             </div>
