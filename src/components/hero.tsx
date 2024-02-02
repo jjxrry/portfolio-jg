@@ -10,7 +10,7 @@ export default function Hero() {
                 <img className="w-full md:w-1/2 h-auto transform -translate-y-8" src={ heroSplash }></img>
                 <p className="md:ml-6 mt-7 text-xl leading-9 text-gray-50">
                 Hello! My name is dot, or Jerry and I am learning to become a software engineer and web developer. 
-                I work mainly in Typescript and Python to create cool things! 
+                I work mainly in JavaScript and Python to create cool things! 
                 I am currently pursuing my Master of Science in Computer Science at Northeastern University. I am always on the look out for SWE opportunities and would love to show you my work.
                 </p>
             </div>
