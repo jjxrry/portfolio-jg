@@ -12,9 +12,9 @@ export default function Hero() {
                 Hello! My name is Jerry and I am learning to become a software engineer and web developer.
                 I take pleasure in solving problems and getting the visuals just right.
                 <br></br>
-                I most recently helped with development of Apple's homepage as an intern of thier 2024 cohort!
+                I most recently helped with development of Apple's homepage as an intern of their 2024 cohort!
                 <br></br>
-                I am currently pursuing my Master of Science in Computer Science at Northeastern University. I am always on the look out for SWE opportunities and would love to show you my work.
+                I am currently pursuing my Master of Science in Computer Science at Northeastern University and am always on the look out for SWE opportunities and would love to show you my work.
                 </p>
             </div>
             <div className="mt-10 flex items-center justify-end gap-x-6">

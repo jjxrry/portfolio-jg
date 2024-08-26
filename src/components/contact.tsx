@@ -24,7 +24,7 @@ export default function Contact() {
       </div>
       <div className="flex flex-row justify-center align-end gap-4 mt-3 text-indigo-400">
         <a className='hover:underline' href='https://www.linkedin.com/in/jerryyga0/'>LinkedIn</a>
-        <a className='hover:underline' href="https://twitter.com/dotslogs">Twitter</a>
+        <a className='hover:underline' href="https://x.com/bourdainish">X</a>
         <a className='hover:underline' href='' onClick={handleEmailClick}>Email</a>
         <a className='hover:underline' href={resumePDF} download="Resume Jerry Gao.pdf">PDF Resume</a>
       </div>
