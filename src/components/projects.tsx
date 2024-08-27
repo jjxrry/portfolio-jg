@@ -2,7 +2,7 @@ const Projects = () => {
     const projects = [
       {
         title: 'Apple Marcom Office Game',
-        description: "Developed an office game for co-workers during my internship at Apple. Basic HTML, CSS, JavaScript utilizing RAF functionality.",
+        description: "Developed an office game for co-workers during my internship at Apple. Basic HTML, CSS, JavaScript utilizing RAF functionality. Added themes for fun, some easter eggs, and winners got lunch on me.",
         link: 'https://jjxrry.github.io/marcom-game/'
       },
       {
@@ -12,7 +12,7 @@ const Projects = () => {
       },
       {
         title: 'Twitter/X Clone',
-        description: 'Employed React, Next.js, and Tailwind to build an X clone with profiles, posts, and library-based user authentication.',
+        description: 'Employed React, Next.js, and Tailwind to build an X clone with profiles, posts, and library-based user authentication. Fun project to learn more about Next.js code patterns.',
         link: 'https://github.com/jjxrry/twit-clone-2023'
       },
       {
