@@ -1,14 +1,19 @@
 const Projects = () => {
     const projects = [
       {
+        title: 'Apple Marcom Office Game',
+        description: "Developed an office game for co-workers during my internship at Apple. Basic HTML, CSS, JavaScript utilizing RAF functionality.",
+        link: 'https://jjxrry.github.io/marcom-game/'
+      },
+      {
         title: 'Poker Game Engine',
         description: "Developed a Python-based Poker Game Engine for Texas Hold 'em, designed to calculate the odds of achieving various poker hands in a two-player scenario, with the capability to handle multiple hand combinations.",
         link: 'https://github.com/jjxrry/poker_engine'
       },
       {
         title: 'Twitter/X Clone',
-        description: 'Employed React, Next.js, and Tailwind to build dynamic, component-based user interfaces that allowed for profileviewing, single post displays, and real-time updates.',
-        link: 'https://twit-clone-2023.vercel.app/'
+        description: 'Employed React, Next.js, and Tailwind to build an X clone with profiles, posts, and library-based user authentication.',
+        link: 'https://github.com/jjxrry/twit-clone-2023'
       },
       {
         title: 'Contact Web App',
